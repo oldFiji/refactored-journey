@@ -2,4 +2,11 @@ name: refactored-journey
 main: com.CyFij.refactoredjourney.Main
 author: Cyrex and Fiji
 version: 1.0
-
+commands:
+  rtool:
+    description: Get the rtool
+    usage: /rtool
+permissions:
+  refactoredjourney.tool:
+    description: Use the rtool
+    default: false
